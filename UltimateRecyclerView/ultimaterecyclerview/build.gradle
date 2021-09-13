@@ -33,7 +33,8 @@ dependencies {
     api 'in.srain.cube:ultra-ptr:1.0.11'
     api 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    api 'jp.wasabeef:recyclerview-animators:2.2.3'
+//    api 'jp.wasabeef:recyclerview-animators:2.2.3'
+    api 'com.github.wasabeef:recyclerview-animators:3.0.0'
 }
 
 apply from: 'android-release-aar.gradle'

@@ -19,7 +19,6 @@ import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.FinalEmptyViewDisp
 import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.FirstPageCancelLoadMore;
 import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.LineNodeActivity;
 import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.PullToRefreshActivity;
-import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.SliderHeader;
 import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.StaggerLoadMoreActivity;
 import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.SwipeListViewExampleActivity;
 import com.marshalchen.ultimaterecyclerview.demo.multiitemdemo.MultiViewTypesActivity;
@@ -64,7 +63,6 @@ public class MainList extends AppCompatActivity implements AdapterView.OnItemCli
         data.put("Debug Pull to refresh", PullToRefreshActivity.class);
         data.put("Debug Admob classic", TestAdMobClassicActivity.class);
         data.put("Debug Admob advanced", TestAdvancedAdmobActivity.class);
-        data.put("Debug Slider Header", SliderHeader.class);
         data.put("Debug Stagger Load More", StaggerLoadMoreActivity.class);
         data.put("Debug Swipe List", SwipeListViewExampleActivity.class);
         data.put("Debug expandable", TestExpandableRV.class);

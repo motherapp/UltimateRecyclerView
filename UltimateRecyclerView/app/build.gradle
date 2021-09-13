@@ -25,7 +25,7 @@ repositories {
     flatDir {
         dirs 'libs'
     }
-    maven { url "http://dl.bintray.com/jjhesk/maven" }
+//    maven { url "http://dl.bintray.com/jjhesk/maven" }
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -34,8 +34,10 @@ dependencies {
     testImplementation "com.squareup.leakcanary:leakcanary-android-no-op:${LEAKCANARY}"
     implementation 'com.google.android.gms:play-services-ads:12.0.1'
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.hkm.loyalslider:library:1.6.2'
-    implementation 'jp.wasabeef:recyclerview-animators:2.2.3'
+//    implementation 'com.hkm.loyalslider:library:1.6.2'
+//    implementation 'com.github.jjhesk:LoyalNativeSlider:1.9.41'
+//    implementation 'jp.wasabeef:recyclerview-animators:2.2.3'
+    implementation 'com.github.wasabeef:recyclerview-animators:3.0.0'
     //compile 'com.marshalchen.ultimaterecyclerview:library:0.8.0'
     api project(':ultimaterecyclerview')
     //used in the gridlayout

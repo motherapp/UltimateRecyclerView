@@ -49,9 +49,6 @@
             android:name=".loadmoredemo.LineNodeActivity"
             android:label="LineNodeActivity" />
         <activity
-            android:name=".loadmoredemo.SliderHeader"
-            android:label="Slider Header" />
-        <activity
             android:name=".admobdemo.TestAdMobClassicActivity"
             android:label="TestAdMob" />
         <activity
